@@ -1,0 +1,32 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+
+@import "./header.scss";
+@import "./main.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100%;
+    background-color: $back-color;
+}
+
+.page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
