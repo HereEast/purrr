@@ -1,5 +1,5 @@
 .main {
-    margin-top: 100px;    
+    margin-top: 80px;    
 }
 
 .products {
@@ -10,9 +10,29 @@
 }
 
 .product {
+    position: relative;
     width: 100%;
-    padding: 20px 0;
-    border-top: 1px solid $white;
+    padding: 20px 0 22px;
+}
+
+.product::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    background-color: $white;
+}
+
+.product:last-child::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: $white;
 }
 
 .product__content {
@@ -37,13 +57,14 @@
 .product__info--link {
     margin-top: 20px;
     
-    padding: 2px 22px 5px 10px;
+    padding: 2px 22px 3px 10px;
     border: 1px solid $white;
     border-radius: 20px;
 }
 
 .product__info--link span {
     position: relative;
+    line-height: 20px;
 }
 
 .product__info--link span::after {
@@ -59,13 +80,13 @@
     background-size: contain;
 }
 
-.product__pic {
+.product__image {
     width: 80px;
     height: 80px;
     margin-left: 40px;
     flex-shrink: 0;
-    background-color: $grey;
-    background-image: url("../assets/products/prod-annika-inez-01.jpg");
+    background-color: rgb(255, 58, 245);
+    // background-image: url("../assets/products/prod-annika-inez-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

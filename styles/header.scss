@@ -3,25 +3,23 @@
 
 .header {
     width: 100%;
-    position: relative;
-}
-
-.header__container {
-    width: 100%;
     position: fixed;
     top: 0;
     left: 0;
+    background-color: $back-color;
+    z-index: 100;
+}
+
+.header__border {
+    // border-bottom: 1px solid $white;
+}
+
+.header__container {
     display: flex;
     justify-content: space-between;
     padding: 5px 10px 10px;
-    background-color: $back-color;
-    z-index: 100;
 
     transition: all 0.2s ease-in-out;
-}
-
-.header__border--active {
-    border-bottom: 1px solid $white;
 }
 
 .header__container .logo--icon {
@@ -30,7 +28,7 @@
 
 .logo h1 {
     font-size: 34px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 //
@@ -45,7 +43,7 @@
 }
 
 .nav__item--link {
-    margin-top: 20px;
+    margin-top: 10px;
     display: inline-block;
     position: relative;
 }
