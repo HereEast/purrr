@@ -31,6 +31,13 @@ body {
 
 a {
     text-decoration: none;
+    
+    cursor: pointer;
+    transition: opacity 0.1s ease-in;
+
+    &:hover {
+        opacity: 60%;
+    }
 }
 
 ul {

@@ -65,19 +65,19 @@
 .product__info--link span {
     position: relative;
     line-height: 20px;
-}
 
-.product__info--link span::after {
-    content: "";
-    position: absolute;
-    top: 6px;
-    right: -15px;
-    width: 10px;
-    height: 10px;
-    background-image: url("../public/icons/ic--link.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 6px;
+        right: -15px;
+        width: 10px;
+        height: 10px;
+        background-image: url("../public/icons/ic--link.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
 }
 
 .product__image {
