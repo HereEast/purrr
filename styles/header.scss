@@ -6,6 +6,8 @@
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
     background-color: $back-color;
     z-index: 100;
 }
@@ -15,6 +17,8 @@
 }
 
 .header__container {
+    max-width: 768px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 5px 10px 10px;
