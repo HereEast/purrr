@@ -1,3 +1,4 @@
 import "../styles/index.scss";
+import { renderProducts } from "./render-products.js";
 
-console.log("Purrr...");
+renderProducts();
