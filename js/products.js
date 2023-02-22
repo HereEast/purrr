@@ -1,5 +1,26 @@
 export const products = [
     {
+        brand: "Urban Outfitters",
+        descr: "We Are All F**cked T-Shirt",
+        shop: "urbanoutfitters.com",
+        link: "https://www.urbanoutfitters.com/en-gb/shop/uo-washed-black-we-are-all-fcked-t-shirt?category=mens-tshirts&color=001&type=REGULAR&quantity=1",
+        image: "../assets/products/uo-01.jpg"
+    },
+    {
+        brand: "Sol de Janeiro",
+        descr: "Body cream",
+        shop: "soldejaneiro.com",
+        link: "https://soldejaneiro.com/products/beija-flor-elasti-cream",
+        image: "../assets/products/soldejaneiro-01.jpg"
+    },
+    {
+        brand: "Trudon",
+        descr: "Gabriel, scented candle",
+        shop: "trudon.com",
+        link: "https://trudon.com/eu_en/home-fragrances/candles/gabriel-561.html",
+        image: "../assets/products/trudon-02.jpg"
+    },
+    {
         brand: "By Far",
         descr: "Baby Cush faux fur shoulder bag",
         shop: "farfetch.com",
