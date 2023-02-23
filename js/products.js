@@ -1,5 +1,26 @@
 export const products = [
     {
+        brand: "Annika Inez",
+        descr: "Heart necklace, sterling silver",
+        shop: "annikainez.com",
+        link: "https://www.annikainez.com/collections/necklaces/products/heart-necklace-sml",
+        image: "../assets/products/annika-inez-02.jpg"
+    },
+    {
+        brand: "Chimi",
+        descr: "Ski googles",
+        shop: "chimi-online.com",
+        link: "https://chimi-online.com/eu/p/ski-02-22-black",
+        image: "../assets/products/chimi-01.jpg"
+    },
+    {
+        brand: "Anissa Kermiche",
+        descr: "Can candlestick (orange)",
+        shop: "anissakermiche.com",
+        link: "https://anissakermiche.com/collections/home/products/can-candlestick-orange",
+        image: "../assets/products/anissa-kermiche-02.jpg"
+    },
+    {
         brand: "Urban Outfitters",
         descr: "We Are All F**cked T-Shirt",
         shop: "urbanoutfitters.com",
