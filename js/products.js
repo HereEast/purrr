@@ -59,7 +59,7 @@ export const products = [
         brand: "Jacquemus",
         descr: "Dark green hoodie",
         shop: "jacquemus.com",
-        link: "https://www.jacquemus.com/en_nl/le-sweatshirt-camargue/226JS053-2087-590.html?cgid=Tops_women",
+        link: "https://www.jacquemus.com/en_nl/le-sweatshirt-camargue/226JS053-2087-850.html?cgid=Tops_women",
         image: "../assets/products/jacquemus-01.jpg"
     },
     {
