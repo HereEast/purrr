@@ -1,5 +1,40 @@
 export const products = [
     {
+        brand: "Byredo",
+        descr: "Lip balm — zingy lime and bergamot",
+        shop: "byredo.com",
+        link: "https://www.byredo.com/eu_en/flavoured-lip-balm-bergamotte-de-bahia",
+        image: "../assets/products/byredo-03.jpg"
+    },
+    {
+        brand: "Anissa Kermiche",
+        descr: "Titillate necklace, 18k gold plating",
+        shop: "anissakermiche.com",
+        link: "https://anissakermiche.com/collections/necklaces/products/tittilate-necklace",
+        image: "../assets/products/anissa-kermiche-03.jpg"
+    },
+    {
+        brand: "Ferm Living",
+        descr: "Set of 4 Ripple Glasses",
+        shop: "fermliving.com",
+        link: "https://fermliving.com/products/ripple-glasses-set-of-4-clear",
+        image: "../assets/products/ferm-living-01.jpg"
+    },
+    {
+        brand: "Zielinski & Rozen",
+        descr: "Body scrub (Black pepper)",
+        shop: "zielinskiandrozen.com",
+        link: "https://zielinskiandrozen.com/store/Body-scrub-Black-Pepper-Vetiver-Neroli-Amber-200-ml-p333484072",
+        image: "../assets/products/zielinskiandrozen-01.jpg"
+    },
+    {
+        brand: "Annika Inez",
+        descr: "Heart shaped silver ring",
+        shop: "annikainez.com",
+        link: "https://www.annikainez.com/collections/ring/products/bigger-heart-ring?variant=41230162395314",
+        image: "../assets/products/annika-inez-03.jpg"
+    },
+    {
         brand: "Annika Inez",
         descr: "Heart necklace, sterling silver",
         shop: "annikainez.com",
@@ -202,11 +237,11 @@ export const products = [
         link: "https://apoc-store.com/products/lit-barret-yellow",
         image: "../assets/products/corrina-goutos-01.jpg"
     },
-    {
-        brand: "Annika Inez",
-        descr: "Sterling-silver earrings",
-        shop: "matchesfashion.com",
-        link: "https://www.matchesfashion.com/intl/products/Annika-Inez-Voluptuous-Heart-sterling-silver-earrings-1502601",
-        image: "../assets/products/annika-inez-01.jpg"
-    }
+    // {
+    //     brand: "Annika Inez",
+    //     descr: "Sterling-silver earrings",
+    //     shop: "matchesfashion.com",
+    //     link: "https://www.matchesfashion.com/intl/products/Annika-Inez-Voluptuous-Heart-sterling-silver-earrings-1502601",
+    //     image: "../assets/products/annika-inez-01.jpg"
+    // }
 ]
