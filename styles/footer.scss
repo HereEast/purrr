@@ -5,32 +5,10 @@
     margin-bottom: 5px;
 }
 
-.footer__info {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-
 .footer__container {
     width: 100%;
     padding: 0 10px;
-}
-
-.footer__info--logo span {
-    font-size: 34px;
-    font-weight: 400;
-}
-
-.footer__info--copy {
-    margin-bottom: 6px;
-}
-
-.footer__dots {
-    width: 100vw;
-    height: 182px;
-    background-image: url("../assets/icons/ic--footer-dots.svg");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
