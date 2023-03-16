@@ -1,8 +1,10 @@
 @import "./fonts.scss";
 @import "./variables.scss";
+@import "./buttons.scss";
 
 @import "./header.scss";
-@import "./products.scss";
+@import "./main.scss";
+@import "./product.scss";
 @import "./footer.scss";
 
 * {
@@ -21,25 +23,24 @@ body {
     align-items: center;
 }
 
-.page {
-    max-width: 768px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
+ul {
+    list-style: none;
+}
+
+img {
+    display: inline-block;
 }
 
 a {
     text-decoration: none;
-    
-    cursor: pointer;
-    transition: opacity 0.1s ease-in;
-
-    &:hover {
-        opacity: 60%;
-    }
 }
 
-ul {
-    list-style: none;
+.page {
+    width: 100%;
 }
+
+.content-width {
+    width: 100%;
+    padding: 0 $page-padding;
+}
+

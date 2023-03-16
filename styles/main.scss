@@ -1,0 +1,47 @@
+.main {
+    margin: 60px 0;    
+}
+
+.cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 10px;
+    margin: 30px 0; 
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    place-items: center;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.card--link {
+    line-height: 0;
+}
+
+.card--image {
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+//
+// Side navigation
+
+.side__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.side__item--link {
+    margin-top: 15px;
+}
