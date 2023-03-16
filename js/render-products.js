@@ -1,23 +1,35 @@
 import { products } from "./products.js";
 
-export function renderProducts() {
-    const productsContainer = document.querySelector(".products");
-    
-    products.forEach(product => {
-        const productElement = `
-            <div class="product">
-                <div class="product__content">
-                    <div class="product__info">
-                        <span class="product__info--brand">${product.brand}</span>
-                        <span class="product__info--descr">${product.descr}</span>
-                        <a class="product__info--link" href="${product.link}" target="_blank">
-                            <span>${product.shop}</span>
-                        </a>
-                    </div>
-                    <div class="product__image" style="background-image:url(${product.image})"></div>
-                </div>
-            </div>`;
+//  Render products
+export function renderProducts() {    
+    const cards = document.querySelector(".cards");
 
-        productsContainer.insertAdjacentHTML("beforeend", productElement);
-    })
+    products.forEach(product => {
+        const productCard = createProduct(product);
+        cards.append(productCard);
+    });
+}
+
+// Create product
+function createProduct(product) {
+    const productCard = document.createElement("div");
+    productCard.classList.add("card");
+
+    const productLink = document.createElement("a");
+    productLink.classList.add("card--link");
+    productLink.href = `./pages/${product.page}`;
+
+    const imageContainer = document.createElement("div");
+    imageContainer.classList.add("card--image");
+
+    const image = document.createElement("img");
+    image.src = product.image;
+    image.alt = product.alt;
+    image.loading = "lazy";
+
+    imageContainer.append(image);
+    productLink.append(imageContainer);
+    productCard.append(productLink);
+
+    return productCard;
 }
