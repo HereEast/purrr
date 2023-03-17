@@ -1,1 +1,0 @@
-import"./index-763a485e.js";const d=document.querySelector(".product__image img"),e=document.querySelector(".product");window.addEventListener("load",o=>{t()});window.addEventListener("resize",o=>{t()});function t(){window.innerWidth===d.clientWidth?e.classList.add("product__layout--column"):e.classList.remove("product__layout--column")}

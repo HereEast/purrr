@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "cross-env BUILD_TYPE=dev vite build",
     "preview": "vite preview --port 3000"
   },
   "devDependencies": {
     "@types/node": "^18.15.3",
     "@vitejs/plugin-legacy": "^4.0.2",
+    "cross-env": "^7.0.3",
     "sass": "^1.58.3",
     "vite": "^4.1.0",
     "vite-aliases": "^0.11.0"

@@ -6,7 +6,11 @@
 .footer__container {
     width: 100%;
     display: flex;
-    // justify-content: space-between;
+    justify-content: space-between;
     align-items: flex-end;
-    gap: 10px;
+    gap: 5px;
+}
+
+.footer__link {
+    margin-left: 5px;
 }
