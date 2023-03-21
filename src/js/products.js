@@ -15,7 +15,7 @@ export const products = [
         link: "https://anissakermiche.com/collections/necklaces/products/tittilate-necklace",
         image: "anissa-kermiche-03.jpg",
         alt: "Titillate necklace by Anissa Kermiche",
-        page: "anissa-kermiche-necklace-01.html"
+        page: "anissa-kermiche-necklace-01.html",
     },
     {
         brand: "Ferm Living",
@@ -24,6 +24,7 @@ export const products = [
         link: "https://fermliving.com/products/ripple-glasses-set-of-4-clear",
         image: "ferm-living-01.jpg",
         alt: "Set of 4 ripple glasses by Ferm Living",
+        page: "ferm-living-ripple-glasses.html",
     },
     {
         brand: "Zielinski & Rozen",
@@ -32,6 +33,7 @@ export const products = [
         link: "https://zielinskiandrozen.com/store/Body-scrub-Black-Pepper-Vetiver-Neroli-Amber-200-ml-p333484072",
         image: "zielinskiandrozen-01.jpg",
         alt: "Body scrub by Zielinski & Rozen",
+        page: "zielinski-rozen-black-pepper-body-scrub.html"
     },
     {
         brand: "Annika Inez",
@@ -40,6 +42,7 @@ export const products = [
         link: "https://www.annikainez.com/collections/ring/products/bigger-heart-ring?variant=41230162395314",
         image: "annika-inez-03.jpg",
         alt: "Heart shaped ring by Annika Inez",
+        page: "annika-inez-heart-ring.html"
     },
     {
         brand: "Annika Inez",
@@ -48,6 +51,7 @@ export const products = [
         link: "https://www.annikainez.com/collections/necklaces/products/heart-necklace-sml",
         image: "annika-inez-02.jpg",
         alt: "Heart necklace by Annika Inez",
+        page: "annika-inez-heart-necklace.html"
     },
     {
         brand: "Chimi",
@@ -56,6 +60,7 @@ export const products = [
         link: "https://chimi-online.com/eu/p/ski-02-22-black",
         image: "chimi-01.jpg",
         alt: "Ski googles by Chimi",
+        page: "chimi-ski-googles.html"
     },
     {
         brand: "Anissa Kermiche",
@@ -64,6 +69,7 @@ export const products = [
         link: "https://anissakermiche.com/collections/home/products/can-candlestick-orange",
         image: "anissa-kermiche-02.jpg",
         alt: "Candlestick by Anissa Kermiche",
+        page: "anissa-kermiche-candlestick.html"
     },
     {
         brand: "Urban Outfitters",
@@ -72,6 +78,7 @@ export const products = [
         link: "https://www.urbanoutfitters.com/en-gb/shop/uo-washed-black-we-are-all-fcked-t-shirt?category=mens-tshirts&color=001&type=REGULAR&quantity=1",
         image: "uo-01.jpg",
         alt: "Urban Outfitters T-Shirt",
+        page: "urban-outfitters-tshirt-01.html"
     },
     {
         brand: "Sol de Janeiro",
@@ -80,6 +87,7 @@ export const products = [
         link: "https://soldejaneiro.com/products/beija-flor-elasti-cream",
         image: "soldejaneiro-01.jpg",
         alt: "Body cream by Sol de Janeiro",
+        page: "soldejaneiro-body-cream.html"
     },
     {
         brand: "Trudon",
@@ -88,6 +96,7 @@ export const products = [
         link: "https://trudon.com/eu_en/home-fragrances/candles/gabriel-561.html",
         image: "trudon-02.jpg",
         alt: "Scented candle by Trudon",
+        page: "trudon-scented-candle-gabriel.html"
     },
     {
         brand: "By Far",
@@ -96,6 +105,7 @@ export const products = [
         link: "https://www.farfetch.com/nl/shopping/women/by-far-baby-cush-schoudertas-van-imitatiebont-item-18714808.aspx",
         image: "byfar-02.jpg",
         alt: "Faux fur bag by By Far",
+        page: "byfar-pink-faux-fur-bag.html"
     },
     {
         brand: "Jacquemus",
@@ -113,6 +123,7 @@ export const products = [
         link: "https://www.jacquemus.com/en_nl/le-sweatshirt-camargue/226JS053-2087-850.html?cgid=Tops_women",
         image: "jacquemus-01.jpg",
         alt: "Jacquemus hoodie",
+        page: "jacquemus-hoodie-01.html"
     },
     {
         brand: "Ami Paris",
@@ -121,6 +132,7 @@ export const products = [
         link: "https://www.farfetch.com/nl/shopping/women/ami-paris-sokken-met-geborduurd-logo-item-17960753.aspx",
         image: "ami-paris-01.jpg",
         alt: "Ami Paris socks",
+        page: "ami-paris-socks.html"
     },
     {
         brand: "Annie Hall",
@@ -129,6 +141,7 @@ export const products = [
         link: "https://www.instagram.com/p/CXqcW_rMqzb/",
         image: "annie-hall-02.jpg",
         alt: "Wool sweater by Annie Hall",
+        page: "annie-hall-sweater-02.html"
     },
     {
         brand: "Jil Sander",
@@ -137,6 +150,7 @@ export const products = [
         link: "https://www.luisaviaroma.com/en-nl/p/jil-sander/women/77I-G24007?ColorId=MDQ10&lvrid=_p_d382_gw&__s=NjQ4MTc1Mg",
         image: "jil-sander-01.jpg",
         alt: "Jil Sander earrings",
+        page: "jil-sander-earrings-01.html"
     },
     {
         brand: "Rimowa",
@@ -145,6 +159,7 @@ export const products = [
         link: "https://www.rimowa.com/nl/en/luggage/colour/slate/cabin/83253834.html",
         image: "rimowa-01.jpg",
         alt: "Rimowa case",
+        page: "rimowa-grey-cabin-case.html"
     },
     {
         brand: "Joolz by Martha Calvo",
@@ -153,6 +168,7 @@ export const products = [
         link: "https://www.matchesfashion.com/intl/products/Joolz-by-Martha-Calvo-Be-Happy-14kt-gold-plated-signet-ring-1445472",
         image: "martha-calvo-02.jpg",
         alt: "Signet ring by Martha Calvo",
+        page: "martha-calvo-signet-ring.html"
     },
     {
         brand: "Kiehl's",
@@ -161,6 +177,7 @@ export const products = [
         link: "https://www.kiehls.com/skincare/eye-creams-and-serums/avocado-eye-cream/258.html",
         image: "kiehls-01.jpg",
         alt: "Kiehl's eye cream",
+        page: "kiehls-avocado-eye-cream.html"
     },
     {
         brand: "Annie Hall",
@@ -169,6 +186,7 @@ export const products = [
         link: "https://www.instagram.com/p/CoHYGjAMt52/",
         image: "annie-hall-01.jpg",
         alt: "Wool sweater by Annie Hall",
+        page: "annie-hall-sweater-01.html"
     },
     {
         brand: "By Far",
@@ -177,6 +195,7 @@ export const products = [
         link: "https://www.luisaviaroma.com/en-nl/p/by-far/women/76I-WZ9010?ColorId=Qkw1&lvrid=_p_d6TG_gw&aka_re=1",
         image: "byfar-01.jpg",
         alt: "Faux fur bag by By Far",
+        page: "byfar-black-faux-fur-bag.html"
     },
     {
         brand: "Celine",
@@ -185,6 +204,7 @@ export const products = [
         link: "https://www.matchesfashion.com/intl/products/Celine-Eyewear-Triomphe-oval-acetate-sunglasses-1425093",
         image: "celine-01.jpg",
         alt: "Celine sunglasses",
+        page: "celine-sunglasses.html"
     },
     {
         brand: "Vivienne Westwood",
@@ -193,14 +213,16 @@ export const products = [
         link: "https://www.viviennewestwood.com/en/women/jewellery/necklaces/mini-bas-relief-pearl-choker-silver-6303000602P131P131.html",
         image: "vivienne-westwood-01.jpg",
         alt: "Vivienne Westwood pearl choker",
+        page: "vivienne-westwood-pearl-choker.html"
     },
     {
         brand: "Joolz by Martha Calvo",
-        descr: "Bead & 14kt gold-plated bracelet",
+        descr: "Beads & 14kt gold-plated bracelet",
         shop: "matchesfashion.com",
         link: "https://www.matchesfashion.com/intl/products/Joolz-by-Martha-Calvo-Showstopper-bead-%26-14kt-gold-plated-bracelet-1529280",
         image: "martha-calvo-01.jpg",
-        alt: "Bead bracelet by Martha Calvo",
+        alt: "Beads bracelet by Martha Calvo",
+        page: "martha-calvo-beads-bracelet.html"
     },
     {
         brand: "Byredo",
@@ -209,6 +231,7 @@ export const products = [
         link: "https://www.byredo.com/eu_en/colored-stick-candles-holidays",
         image: "byredo-02.jpg",
         alt: "Byredo stick candles",
+        page: "byredo-stick-candles.html"
     },
     {
         brand: "Études",
@@ -217,6 +240,7 @@ export const products = [
         link: "https://www.etudes-studio.com/products/booster-nevermind-red-washed",
         image: "etudes-01.jpg",
         alt: "Études cap",
+        page: "etudes-red-cap.html"
     },
     {
         brand: "Acne Studios",
@@ -225,6 +249,7 @@ export const products = [
         link: "https://www.acnestudios.com/nl/en/knot-ring-silver/C50267-AAE.html?cgid=woman-jewellery",
         image: "acne-studios-01.jpg",
         alt: "Acne Studios silver ring",
+        page: "acne-studios-knotted-ring.html"
     },
     {
         brand: "Aesop",
@@ -233,6 +258,7 @@ export const products = [
         link: "https://www.aesop.com/us/p/body-hand/hand-and-body-gifts/reverence-aromatique-hand-wash/",
         image: "aesop-01.jpg",
         alt: "Aesop hand wash",
+        page: "aesop-handwash.html"
     },
     {
         brand: "Hermina Athens",
@@ -241,6 +267,7 @@ export const products = [
         link: "https://herminaathens.com/product/vilma-pearl-necklace/",
         image: "hermina-athens-01.jpg",
         alt: "Hermina Athens necklace",
+        page: "hermina-athens-pearl-necklace.html"
     },
     {
         brand: "Trudon",
@@ -249,6 +276,7 @@ export const products = [
         link: "https://trudon.com/eu_en/home-fragrances/scented-matches/ernesto-236.html",
         image: "trudon-01.jpg",
         alt: "Scented matches by Trudon",
+        page: "trudon-scented-matches-ernesto.html"
     },
     {
         brand: "Anissa Kermiche",
@@ -257,6 +285,7 @@ export const products = [
         link: "https://www.matchesfashion.com/intl/products/Anissa-Kermiche-Love-Handles-earthenware-vase-1533190",
         image: "anissa-kermiche-01.jpg",
         alt: "Vase by Anissa Kermiche",
+        page: "anissa-kermiche-glazed-vase.html"
     },
     {
         brand: "Byredo",
@@ -265,6 +294,7 @@ export const products = [
         link: "https://www.byredo.com/eu_en/bibliotheque-candle-240g",
         image: "byredo-01.jpg",
         alt: "Byredo scented candle",
+        page: "byredo-candle-bibliotheque.html",
     },
     {
         brand: "Corrina Goutos",
@@ -273,6 +303,7 @@ export const products = [
         link: "https://apoc-store.com/products/lit-barret-yellow",
         image: "corrina-goutos-01.jpg",
         alt: "Hair clip by Corrina Goutos",
+        page: "corrina-goutos-hair-clip.html",
     },
     // {
     //     brand: "Annika Inez",
