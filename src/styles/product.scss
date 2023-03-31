@@ -89,29 +89,8 @@
     }
 }
 
-// Dots
-.dots__container {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    pointer-events: none;
-    z-index: 100;
-
-    .dot {
-        position: absolute;
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-        background-color: #D5FF00;
-        pointer-events: none;
-    }
-}
-
 //
-// 440px
+// Width: 440px
 @media all and (max-width: 440px) {
     .product__description {
         .brand {
